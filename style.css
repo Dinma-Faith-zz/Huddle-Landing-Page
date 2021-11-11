@@ -118,8 +118,6 @@ footer ul li {
 
 footer .social-media {
   display: flex;
-  align-items: center;
-  justify-content: center;
 } 
  
 footer .circle {
@@ -133,8 +131,16 @@ footer .circle {
   height: 40px;
   width: 40px;
   text-decoration: none;
-} 
+}
 
+.footer-details-text {
+  display: flex;
+    justify-content: space-around;
+}
+
+.copyright-text{
+  text-align: right;
+}
 
 @media screen and (max-width: 768px) {
   body {
@@ -167,4 +173,5 @@ footer .circle {
   footer p {
     text-align: center;
   }
+  
 }
