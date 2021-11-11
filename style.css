@@ -41,7 +41,7 @@ img {
 .container {
   padding: 0 20px;
   margin: 0 auto;
-  max-width: 1000%;
+  max-width: 80%;
   width: 1000px;
 }
 
@@ -96,6 +96,8 @@ nav {
   z-index: 1;
   margin-bottom: -50%;
   z-index: 1;
+  max-width: 640px;
+    width: 100%;
 }
 
 .box img {
@@ -110,6 +112,7 @@ footer {
 
 footer ul {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 footer ul li {
@@ -133,13 +136,24 @@ footer .circle {
   text-decoration: none;
 }
 
-.footer-details-text {
+.footer-details {
   display: flex;
-    justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 20px;
+  
 }
 
 .copyright-text{
   text-align: right;
+}
+.footer-details-list {
+  display: flex;
+}
+.footer-details-list-icon {
+  padding-right: 10px;
+}
+.footer-details-text {
+padding-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
